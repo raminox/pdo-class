@@ -7,6 +7,7 @@ A PDO class
 In order to use this class you will have to:
 
 Require the class: `require 'database.class.php';`.
+
 Define the configuration for your database:
 ```php
 define("DB_HOST", "localhost");
