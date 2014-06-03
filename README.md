@@ -10,9 +10,9 @@ Require the class: `require 'database.class.php';`.
 Define the configuration for your database:
 ```php
 define("DB_HOST", "localhost");
-define("DB_USER", "root");
-define("DB_PASS", "");
-define("DB_NAME", "notebook");
+define("DB_USER", "username");
+define("DB_PASS", "password");
+define("DB_NAME", "database");
 ```
 Instantiate database class: `$database = new Database();`
 
@@ -24,9 +24,9 @@ require 'database.class.php';
 
 // Define configuration
 define("DB_HOST", "localhost");
-define("DB_USER", "root");
-define("DB_PASS", "");
-define("DB_NAME", "notebook");
+define("DB_USER", "username");
+define("DB_PASS", "password");
+define("DB_NAME", "database");
 
 // Instantiate database.
 $database = new Database();
