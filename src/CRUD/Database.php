@@ -5,7 +5,7 @@ namespace moofyme;
 use \PDO;
 use \PDOException;
 
-class Database extends Singleton
+class Database extends QueryBuilder
 {
 	protected $dbh;
 
@@ -15,7 +15,7 @@ class Database extends Singleton
 	{
 		try {
 			$this->dbh = new PDO('mysql:host=localhost;dbname=github;', 'homestead', 'secret', array(
-				
+
 			));
 		} catch (PDOException $e) {
 			die($e->getMessage());
