@@ -2,10 +2,8 @@
 
 namespace moofyme;
 
-class QueryBuilder
+class QueryBuilder extends Database
 {
 	protected $where;
 	protected $select;
-
-	
 }
